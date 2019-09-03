@@ -1,0 +1,155 @@
+
+main {
+  background-image: url("../pictures/burger.png");
+  min-height: 100%;
+  size: 6in;
+  padding-bottom: 50px;
+}
+
+body, html {
+  height: 100%;
+  font-family: "Courier New";
+}
+
+navbar {
+  background: #f05054;
+  font-family: "Marker Felt", cursive;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+li {
+  float: left
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+navbar li a:hover:not(.active) {
+  color: white;
+}
+
+nav li a:hover:not(.active) {
+  color: #f0973c;
+}
+
+.active {
+  background-color: #f0973c;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+p {
+  padding: 0 40px;
+}
+
+.nav-logo {
+  width: 200px;
+}
+
+.main-div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.discount, .media, .faq {
+  background: #f05054;
+  width: 50%;
+  display: block;
+  box-shadow: 0px 20px 20px 20px grey;
+  margin: auto auto 50px;
+}
+
+.discount-fields {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+}
+
+button, .self-button {
+  background-color: #f0973c;
+  border-radius: 5px;
+  width: 15%;
+  height: 25px;
+  margin: 5px;
+  box-shadow: 6px 4px grey;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover, .self-button:hover {
+  background-color: #e08d37;
+}
+
+button:active, .self-button:active {
+  background-color: #e08d37;
+  box-shadow: none;
+  transform: translateY(4px);
+}
+
+.media-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+
+.media-buttons a {
+  background-color: white;
+  box-shadow: 6px 4px grey;
+  cursor: pointer;
+  outline: none;
+  height: 64px;
+  width: 64px;
+  border-radius: 15px;
+}
+
+.media-buttons img:hover {
+  opacity: .8;
+}
+
+.media-buttons a:active {
+  box-shadow: none;
+  transform: translateY(4px);
+}
+
+.question-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.self-button {
+  align-self: flex-end;
+  text-align: center;
+  padding-top: 5px;
+  margin-bottom: 15px;
+}
+
+.show-hide {
+  display: none;
+}
+
+.show-hide:target {
+  display: block;
+}
