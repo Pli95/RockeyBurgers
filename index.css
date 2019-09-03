@@ -94,3 +94,8 @@ p {
   text-align: center;
   font-size: x-large;
 }
+
+iframe {
+  align-self: center;
+  box-shadow: 0px 20px 20px 20px grey;
+}
