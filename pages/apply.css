@@ -1,0 +1,126 @@
+
+main {
+  background-image: url("../pictures/burger.png");
+  min-height: 100%;
+  size: 6in;
+  padding-bottom: 50px;
+}
+
+body, html {
+  height: 100%;
+  font-family: "Courier New";
+}
+
+navbar {
+  background: #f05054;
+  font-family: "Marker Felt", cursive;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+li {
+  float: left
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+navbar li a:hover:not(.active) {
+  color: white;
+}
+
+nav li a:hover:not(.active) {
+  color: #f0973c;
+}
+
+.active {
+  background-color: #f0973c;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+p {
+  padding: 0 40px;
+}
+
+.nav-logo {
+  width: 200px;
+}
+
+.main-div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  display: block;
+  box-shadow: 0px 20px 20px 20px grey;
+  margin: auto auto 50px;
+  background: #f05054;
+  padding: 5px;
+}
+
+.name, .address {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+}
+
+.other, .work-history, .fit-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkbox {
+  padding: 5px;
+}
+
+textarea {
+  height: 100px;
+  margin: 5px 0;
+}
+
+input, select {
+  font-size: 20px;
+}
+
+button {
+  background-color: #f0973c;
+  border-radius: 5px;
+  width: 15%;
+  height: 25px;
+  margin: 5px;
+  box-shadow: 6px 4px grey;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background-color: #e08d37;
+}
+
+button:active {
+  background-color: #e08d37;
+  box-shadow: none;
+  transform: translateY(4px);
+}
