@@ -14,7 +14,7 @@ body, html {
 navbar {
   background: #f05054;
   font-family: "Marker Felt", cursive;
-  font-size: 30px;
+  font-size: 3em;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -56,7 +56,7 @@ nav li a:hover:not(.active) {
   background-color: #f0973c;
 }
 
-h1, h2, h3 {
+h1, h2, h3, .special-text {
   text-align: center;
 }
 
@@ -68,34 +68,36 @@ p {
   width: 200px;
 }
 
-.main-pic, .map-img {
+.main-pic, .about {
   width: 50%;
-  display: block;
-  margin: auto;
-  box-shadow: 0px 20px 20px 20px grey;
 }
 
 .main-div {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: center;
 }
 
 .about {
-  width: 50%;
-  display: block;
-  margin: auto;
   background: #e4e4e4;
-  box-shadow: 0px 20px 20px 20px grey;
 }
 
 .special-text {
   color: red;
-  text-align: center;
   font-size: x-large;
 }
 
-iframe {
-  align-self: center;
+iframe, .about, .main-pic {
   box-shadow: 0px 20px 20px 20px grey;
+  width: 100%;
+}
+
+@media only screen and (max-width: 790px) {
+  .main-div {
+    width: 100%;
+  }
+  navbar ul, nav ul {
+    flex-direction: column;
+  }
 }

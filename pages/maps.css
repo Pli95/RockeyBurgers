@@ -14,7 +14,7 @@ body, html {
 navbar {
   background: #f05054;
   font-family: "Marker Felt", cursive;
-  font-size: 30px;
+  font-size: 3em;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -97,4 +97,13 @@ table {
 table, td {
   border-collapse: collapse;
   border: 2px solid black;
+}
+
+@media only screen and (max-width: 790px) {
+  .main-div {
+    width: 100%;
+  }
+  navbar ul, nav ul {
+    flex-direction: column;
+  }
 }

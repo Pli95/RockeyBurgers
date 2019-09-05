@@ -14,7 +14,7 @@ body, html {
 navbar {
   background: #f05054;
   font-family: "Marker Felt", cursive;
-  font-size: 30px;
+  font-size: 3em;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -70,10 +70,8 @@ p {
 
 .main-div {
   display: flex;
-  justify-content: center;
   flex-direction: column;
   width: 50%;
-  display: block;
   box-shadow: 0px 20px 20px 20px grey;
   margin: auto auto 50px;
   background: #f05054;
@@ -123,4 +121,13 @@ button:active {
   background-color: #e08d37;
   box-shadow: none;
   transform: translateY(4px);
+}
+
+@media only screen and (max-width: 790px) {
+  .main-div {
+    width: 100%;
+  }
+  navbar ul, nav ul {
+    flex-direction: column;
+  }
 }

@@ -14,7 +14,7 @@ body, html {
 navbar {
   background: #f05054;
   font-family: "Marker Felt", cursive;
-  font-size: 30px;
+  font-size: 3em;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -86,11 +86,28 @@ p {
 }
 
 main img {
-  width: 250px;
+  width: 50%;
   padding: 20px;
 }
 
 .lineUp {
   display: flex;
   justify-content: space-between;
+}
+
+@media only screen and (max-width: 1259px) {
+.lineUp {
+  display: flex;
+  flex-direction: column;
+}
+
+}
+
+@media only screen and (max-width: 790px) {
+  .main-div {
+    width: 100%;
+  }
+  navbar ul, nav ul {
+    flex-direction: column;
+  }
 }

@@ -42,12 +42,15 @@
     <div class="discount">
       <h2>Subscribe Today</h2>
       <h3>Don’t miss out on discounts</h3>
-      <div class="discount-fields">
-        Full Name:<input type="text" name="name"> <br>
-        Email Address: <input type="email" name="email"><br>
-        Phone Number: <input type="text" name="phone"><br>
-      </div>
-      <button type="button">Submit</button>
+      <form class="discount-fields" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name">
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email">
+        <label for="phone">Phone Number:</label>
+        <input type="text" id="phone" name="phone">
+      </form>
+      <button type="submit">Submit</button>
     </div>
 
     <div class="media">
