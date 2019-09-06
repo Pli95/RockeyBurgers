@@ -1,80 +1,4 @@
 
-main {
-  background-image: url("../pictures/burger.png");
-  min-height: 100%;
-  size: 6in;
-  padding-bottom: 50px;
-}
-
-body, html {
-  height: 100%;
-  font-family: "Courier New";
-}
-
-navbar {
-  background: #f05054;
-  font-family: "Marker Felt", cursive;
-  font-size: 3em;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-}
-
-li {
-  float: left
-}
-
-li a {
-  display: block;
-  text-align: center;
-  padding: 14px 16px;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-}
-
-navbar li a:hover:not(.active) {
-  color: white;
-}
-
-nav li a:hover:not(.active) {
-  color: #f0973c;
-}
-
-.active {
-  background-color: #f0973c;
-}
-
-h1, h2, h3 {
-  text-align: center;
-}
-
-p {
-  padding: 0 40px;
-}
-
-.nav-logo {
-  width: 200px;
-}
-
-.main-div {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-
 .discount, .media, .faq {
   background: #f05054;
   width: 50%;
@@ -116,16 +40,13 @@ button:active, .self-button:active {
 }
 
 .media-buttons a {
-  background-color: white;
   box-shadow: 6px 4px grey;
   cursor: pointer;
-  outline: none;
-  height: 64px;
-  width: 64px;
-  border-radius: 15px;
+  border-radius: 10%;
+  height: 66px;
 }
 
-.media-buttons img:hover {
+.media-buttons a:hover {
   opacity: .8;
 }
 
@@ -161,4 +82,16 @@ button:active, .self-button:active {
   navbar ul, nav ul {
     flex-direction: column;
   }
+}
+
+i {
+  font-size: 70px;
+}
+
+.fa-twitter-square {
+  color: #38A1F3;
+}
+
+.fa-facebook-square {
+  color: #3b5998;
 }
