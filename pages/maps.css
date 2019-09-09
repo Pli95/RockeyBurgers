@@ -19,6 +19,11 @@ table {
   background-color: #f05054;
 }
 
+.mapList {
+  flex-direction: column;
+align-items: baseline;
+}
+
 .table-align {
   display: flex;
   justify-content: center;
