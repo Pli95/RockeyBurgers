@@ -1,5 +1,5 @@
 .map-img, h2 {
-  width: 50%;
+  width: 65%;
   display: block;
   margin: auto;
   box-shadow: 0px 20px 20px 20px grey;
@@ -8,13 +8,13 @@
 
 .main {
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  color: white;
 }
 
 
 table {
-  width: 50%;
+  width: 65%;
   box-shadow: 0px 20px 20px 20px grey;
   background-color: #f05054;
 }
