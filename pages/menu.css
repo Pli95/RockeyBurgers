@@ -21,6 +21,10 @@ main img {
   padding: 20px;
 }
 
+strong, u {
+  font-size: 37px;
+}
+
 .lineUp {
   display: flex;
   justify-content: space-between;
