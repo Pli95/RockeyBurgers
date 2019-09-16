@@ -12,12 +12,16 @@
   padding: 0 20px;
 }
 
+label, input {
+  margin: 5px 0;
+}
+
 button, .self-button {
   background-color: #f0973c;
   border-radius: 5px;
   width: 15%;
   height: 25px;
-  margin: 5px;
+  margin: 15px;
   box-shadow: 6px 4px grey;
   cursor: pointer;
   outline: none;

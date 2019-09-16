@@ -29,6 +29,10 @@ align-items: baseline;
   justify-content: center;
 }
 
+ul {
+  padding: 10px;
+}
+
 table, td {
   border-collapse: collapse;
   border: 2px solid black;
